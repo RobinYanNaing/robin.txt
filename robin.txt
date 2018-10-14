@@ -1,1 +1,155 @@
-ECHO is on.
+<!DOCTYPE html>
+<html>
+<head>
+	<title>My Project</title>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<!-- <link rel="stylesheet" type="text/css" href="css/robin.css"> -->
+	<script src="js/jquery.min.js" ></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="robin.js"></script>
+</head>
+<body>
+	 <header>    
+    <img src="img/logo.gif" height="100px" width="100px">
+    <span id="resa">Foods</span>
+  </header>
+  <nav id="navbar" class="navbar navbar-inverse" style="background-image: url(img/bar_background.png);"> 
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>                        
+            </button>
+              
+            <div class="navbar-brand" id="brand">Recipes<br>Recipe.com</div>
+          </div>
+          <div class="collapse navbar-collapse" id="myNavbar">
+
+            <ul class="nav nav-pills">
+              <li><a href="#">Home</a></li>
+              <li><a href="#">Today Special</a></li>
+
+              
+
+              <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Best FOODs<span class="caret"></span></a>
+                <ul class="dropdown-menu" id="dropdown-menu">              
+                  
+                  <li><a href="">Chicken Soup</a></li>
+                  <li><a href="">Noodles</a></li>
+                </ul>
+              </li>
+
+              <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Drinks<span class="caret"></span></a>
+                <ul class="dropdown-menu" id="dropdown-menu">
+                
+                  <li><a href="#">Coffee</a></li>
+                  <li><a href="#">Fruits Juice</a></li>
+                  <li><a href="#">Today Brew</a></li>            
+                  
+                  
+                </ul>
+              </li>
+                
+              <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">About Us<span class="caret"></span></a>
+                <ul class="dropdown-menu" id="dropdown-menu">
+                  <li><a href="#">Our Quality</a></li>
+                  <li><a href="#">Social</a></li>
+                </ul>
+              </li>          
+            </ul>         
+          </div>
+        </div>
+      </nav>
+       <script>
+      window.onscroll = function() {myFunction()};
+      var navbar = document.getElementById("navbar");
+      var sticky = navbar.offsetTop;
+
+      function myFunction() {
+        if (window.pageYOffset >= sticky) {
+          navbar.classList.add("sticky")
+        } else {
+          navbar.classList.remove("sticky");
+        }
+      }
+    </script>
+
+
+
+
+
+	 <div class="container" style="padding-bottom: 60px;">
+
+	 	<div class="row">
+
+	 		<div class="col-md-4 col-xs-6" style="padding: 0 20px 0 0; " >
+	 			<p>
+	 				Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+          tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+          quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+          consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+          cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+          proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+	 			</p>	 			
+	 		</div>
+
+	 		<div class="col-md-4 col-xs-6" style="padding: 0 20px ; ">
+	 			<a href="text.txt">
+	 			<img src="img/Thor.jpg" style="width: 300px; height: auto;" >
+	 			</a>
+	 		</div>
+
+	 		<div class="col-md-4 col-xs-6" style="padding: 0 0 0 20px; ">
+	 			<p>
+	 				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+          quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+          consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+          cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+          proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+	 			</p>	 			
+	 		</div>
+	 		
+	 	</div>
+	 	
+	 </div>
+
+
+
+
+
+
+
+	 <footer class="container-fluid text-center" style="  background-color: #555;
+          color: white;
+          padding: 15px;"> 
+      <div>
+     Our Recipes Website is Offering you above these Orders.
+      <br>
+      No.70, Anawmar(1)lane, 13 Quarter, South Okkalapa Township, Yangon.<br>
+      www.kaunghtetservices.com, kaunghtetservices@gmail.com, ph: 09443144225, 0973008426, 09781207808, <br>
+      
+        <div>
+          <div class="row">
+            <div class="col-sm-3">
+              <a href="#"><h5>Deliverey</h5></a> Unlike postal, Door to Door, <br> the next day delivery, especially <br>Yangon- Naypyitaw- Mandalay
+            </div>
+            <div class="col-sm-3">
+              <a href="#"><h5>Driving Licence</h5></a>ႏိုင္ငံျခားသားမ်ားႏွင့္ <br>ႏိုင္ငံျခားသြားမည့္ျမန္မာမ်ားအတြက္ <br>ယာဥ္ေမာင္းလိုင္စင္၀န္ေဆာင္မႈ
+            </div>
+            <div class="col-sm-3">
+              <a href="#"><h5>Real Estate</h5></a>လူႀကီးမင္းတို႔လိုအပ္သည့္ အိမ္ၿခံေျမမ်ားကို<br>
+          အိမ္ၿခံေျမကြန္ယက္အတြင္းဥပေဒႏွင့္အညီ <br>ေရာင္း/၀ယ္/ငွားျခင္းမ်ား
+            </div>
+            <div class="col-sm-3">
+              <a href="#"><h5>Web Developer</h5></a>လူႀကီးမင္းတို႔ စီးပြားေရးလုပ္ငန္းမ်ားကို <br>ကိုယ္ပိုင္ Web Site ေပၚတြင္ေၾကာ္ျငာႏိုင္ေရး<br>စီစဥ္ေပးသည့္၀န္ေဆာင္မႈ
+            </div>
+          </div> 
+        </div>
+      </div>
+    </footer> 
+	 
+
+</body>
+</html>
+
